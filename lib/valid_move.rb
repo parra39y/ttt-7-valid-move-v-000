@@ -15,7 +15,7 @@ end
 end
 
 def valid_move?(board,index)
-if board[index]>=1 && board[index]<=9 && position_taken?==true
+if board[index]>=1 && board[index]<=9 && position_taken?==false
   return true
 else
   return false
