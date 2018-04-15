@@ -15,9 +15,14 @@ end
 end
 
 def valid_move?(board, index)
-  if board[index]>=0
+if board[index]<=0
+  return false
+elsif condition
+   board[index]>=0
     return true
-  elsif board[index]<=9
+if board[index]<=9
     return true
+elsif board[index]>=9
+  return false
   end
 end
