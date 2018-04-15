@@ -14,7 +14,7 @@ elsif board[index]== "X"|| board[index]= "O"
 end
 end
 
-def valid_move?(board, index)
+def valid_move?(board,index)
 if board[index]<=0
   return false
 elsif condition
